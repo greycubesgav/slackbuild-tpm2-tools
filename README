@@ -1,0 +1,3 @@
+tpm2-tools is a batch of tools for tpm2.0. It is based on
+tpm2-tss.
+Required by clevis for tpm encryption actions
