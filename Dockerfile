@@ -44,4 +44,4 @@ RUN ./*.SlackBuild
 
 # Create a clean image with only the artifact
 FROM scratch AS artifact
-COPY --from=builder /tmp/tpm2-tss*.tgz .
+COPY --from=builder /tmp/tpm2-*.tgz .
